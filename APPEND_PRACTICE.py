@@ -1,0 +1,5 @@
+fo = open("vinod1.txt","a+")
+fo.write("This is Sample")
+#fo.write("\n Elephant")
+fo.seek(0)
+print(fo.read())

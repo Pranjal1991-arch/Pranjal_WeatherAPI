@@ -1,0 +1,6 @@
+tuple1 = (11, 12, 4, 9, 5)
+tuple2 = (4, 9)
+print("The Original Tuple 1 is:" + str(tuple1))
+print("The Original Tuple 2 is:" + str(tuple2))
+temp_pranjal = set(tuple2).issubset(tuple1)
+print("Is Tuple 2 subset of Tuple 1?" + "\n" + str(temp_pranjal))
